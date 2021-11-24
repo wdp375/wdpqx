@@ -1,9 +1,9 @@
 {
-    "id": "didididiao.app.sub", 
+    "id": "风之传说", 
     "name": "自用变量订阅", 
-    "author": "@didididiao", 
+    "author": "wdp375", 
     "icon": "https://avatars1.githubusercontent.com/u/36787390?s=400&v=4", 
-    "repo": "https://github.com/didididiao/QuantumultX", 
+    "repo": "git@github.com:wdp375/wdpqx.git", 
     "apps": [
         {
             "id": "didi_fruit", 
