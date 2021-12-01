@@ -32,6 +32,844 @@
             "author": "@passerby-b", 
             "repo": "https://gitee.com/passerby-b/javascript/raw/master/JD/passerby-b.boxjs.json", 
             "script": "https://raw.githubusercontent.com/passerby-b/didi_fruit/main/dd_fruit.js"
-      }
+      },
+      {
+            "id": "JD_Cookies",
+            "name": "京东多账号 Ck 管理",
+            "keys": ["CookiesJD"],
+            "descs_html": [
+              "请勿随意在输入框修改内容，建议通过脚本去获取cookie，若要修改，请按照JSON 格式修改（<a href=\"https://www.bejson.com/json/format\">可使用此JSON校验</a> ，或点击右上角按钮🔘进行校验(如有弹窗提示则为异常JSON)）。",
+              "示例：[{\"userName\":\"jd_xxx\",\"cookie\":\"pt_key=AAJ;pt_pin=jd_xxx;\"},{\"userName\":\"jd_66\",\"cookie\":\"pt_key=AAJ;pt_pin=jd_66;\"}]",
+              "使用方式【<a href=\"https://home.m.jd.com/myJd/newhome.action\">个人中心</a>】获取对应的数据Code",
+              "注：如与NobyDa的京东cookie重复，建议在此处删除重复的cookie"
+            ],
+            "settings": [
+              {
+                "id": "CookiesJD",
+                "name": "CK 列表",
+                "val": "",
+                "type": "textarea",
+                "autoGrow": true,
+                "rows": 8,
+                "desc": "CK 列表 (JSON 格式)"
+              }
+            ],
+            "icons": [
+              "https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/jd.png",
+              "https://raw.githubusercontent.com/Orz-3/mini/master/Color/jd.png"
+            ],
+            "author": "",
+            "repo": "https://github.com/dompling/Script",
+            "script": ""
+          } ,
+          {
+            "id": "JD_jr_Cookies",
+            "name": "金融领豆",
+            "keys": ["@jd_jr.cookies", "@jd_jr.bodys"],
+            "descs_html": [
+              "请勿随意在输入框修改内容，只能通过脚本去获取cookie，若要修改，请按照JSON 格式修改（<a href=\"https://www.bejson.com/json/format\">可使用此JSON校验</a> ，或点击右上角按钮🔘进行校验(如有弹窗提示则为异常JSON)）。",
+              "仅能修改phoneNumber内容",
+              "JSON示例：[{phoneNumber: \"13348751678\", username: \"yaya\" }]"
+            ],
+            "settings": [
+              {
+                "id": "@jd_jr.cookies",
+                "name": "CK 列表",
+                "val": "",
+                "type": "textarea",
+                "autoGrow": true,
+                "rows": 8,
+                "desc": "CK 列表 (JSON 格式)"
+              }
+            ],
+            "icons": [
+              "https://raw.githubusercontent.com/Orz-3/mini/master/jd.png",
+              "https://raw.githubusercontent.com/Orz-3/task/master/jd.png"
+            ],
+            "author": "@dompling",
+            "repo": "https://github.com/dompling/Script/blob/master/jd/jd_jr_cookie.js",
+            "script": "https://raw.githubusercontent.com/dompling/Script/master/jd/jd_jr_sign.js"
+          }, {
+          "id": "jxcollect",
+          "name": "京喜工厂电力收取",
+          "keys": ["jxcollecturl","jxcollecturl2", "jxcollecturl3", "jxcollecturl4", "jxcollecturl5"],
+          "author": "@Ariszy",
+          "settings": [{
+                  "id": "tz",
+                  "name": "静默运行",
+                  "val": "1",
+                  "type": "number",
+                  "desc": "0为不通知，1为全部通知"
+              },
+            {
+              "id": "jxcollectstatus",
+              "name": "当前账号",
+              "val": "1",
+              "type": "number",
+              "desc": "当前账号对应"
+            },
+            {
+              "id": "jxcollectcount",
+              "name": "账号个数",
+              "val": "1",
+              "type": "number",
+              "desc": "需要几个账号，数字为几"
+            },
+             {
+              "id": "jxcollectdoublenum",
+              "name": "是否double领取",
+              "val": "0",
+              "type": "number",
+              "desc": "0为不double，1为double且必须满了运行才ok，否则火爆"
+            }         ],
+          "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jxcollect.js",
+          "icons": ["https://raw.githubusercontent.com/58xinian/icon/master/jdgc_mini.png","https://github.com/58xinian/icon/raw/master/jdgc.png"],
+          "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jxcollect.js"
+        }, {
+            "id": "youthCk",
+            "name": "中青数据",
+            "keys": [
+       "youthheader_zq",   "readtime_zq",   
+       "youthheader_zq2",  "readtime_zq2", 
+       "youthheader_zq3",  "readtime_zq3", 
+       "youthheader_zq4",  "readtime_zq4",  
+       "youthheader_zq5",  "readtime_zq5",
+       "youthheader_zq6",  "readtime_zq6",   
+       "youthheader_zq7",  "readtime_zq7",  
+       "youthheader_zq8",  "readtime_zq8", 
+       "youthheader_zq9",  "readtime_zq9",
+       "youthheader_zq10", "readtime_zq10", 
+       "youthheader_zq11", "readtime_zq11",
+       "youthheader_zq12", "readtime_zq12",
+       "youthheader_zq13", "readtime_zq13", 
+       "youthheader_zq14", "readtime_zq14", 
+       "youthheader_zq15", "readtime_zq15", 
+       "youthheader_zq16", "readtime_zq16", 
+       "youthheader_zq17", "readtime_zq17"], 
+            "descs_html": [
+              "1、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
+              "2、在首页随便找个文章看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
+              "备注：看看赚的任务可能失效过期，建议：1、在看看赚配置中选则移除失败数据；2、看看赚任务一天跑两次；3、第一二次任务执行之间，可再回中青app看看赚任务页面查看下是否有新任务"
+            ],
+            "author": "@ztxtop",
+            "settings": [{
+              "id": "ckFormat",
+              "val": "",
+              "name": "新CK格式",
+              "type": "boolean",
+              "desc": "数据是否按新格式存储"
+            }, {
+              "id": "zqSuffix",
+              "name": "抓包账号",
+              "val": "1",
+              "type": "number",
+              "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+            }, {
+              "id": "zqExecAc",
+              "name": "中青执行账号",
+              "val": "1",
+              "type": "text",
+              "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+            }],
+            "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+            "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js"
+          } ,  
+          {
+            "author": "@sunert", 
+            "descs_html": [
+              "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Scripts/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>", 
+              "<br />", 
+              "<p>其中<font color='#FF0000',font-weight: bold>zq_nick、zqcash</font>和<font color='#FF0000',font-weight: bold>zqcard</font>为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+            ], 
+            "keys": [
+              "zq_nick", 
+              "youthheader_zq", 
+              "read_zq", 
+              "readtime_zq", 
+              "cashurl_zq", 
+              "cashbody_zq", 
+              "zqcash", 
+              "zqcard"
+      
+            ], 
+            "repo": "https://github.com/Sunert/Scripts/blob/master/Task/youth.js", 
+            "id": "youth", 
+            "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js", 
+            "settings": [
+              {
+                "id": "zqcard", 
+                "val": "false", 
+                "name": "打卡赚钱", 
+                "type": "boolean", 
+                "desc": "每日打卡报名及早起打卡"
+              }, 
+              {
+                "id": "zqtime", 
+                "val": "05", 
+                "name": "打卡时间", 
+                "type": "number", 
+                "desc": "每日早起打卡时间"
+              }, 
+              {
+                "id": "delay_rotary_zq", 
+                "val": "10", 
+                "name": "转盘时间间隔", 
+                "type": "number", 
+                "desc": "间隔时间设置，如1秒填1即可"
+              }, 
+              {
+                "id": "notifytimes", 
+                "val": "", 
+                "name": "通知频率 (点击查看设置说明)", 
+                "type": "number", 
+                "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+              }, 
+              {
+                "id": "zqcash", 
+                "val": "30", 
+                "name": "提现金额", 
+                "type": "radios", 
+                "desc": "自动提现金额需和获取提现请求保持一致", 
+                "items": [
+                  {
+                    "key": "10", 
+                    "label": "10元"
+                  }, 
+                  {
+                    "key": "30", 
+                    "label": "30元"
+                  }, 
+                  {
+                    "key": "100", 
+                    "label": "100元"
+                  }
+                ]
+              }
+            ], 
+            "name": "中青看点", 
+            "icons": [
+              "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/youth.png", 
+              "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/youth.png"
+            ]
+          }, 
+          {
+            "id": "youthNeRead",
+            "name": "中青阅读",
+            "descs_html": [
+              "中青阅读脚本地址【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqread.js\">中青阅读</a>】",
+              "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用",
+              "⚠️：QX阅读数据可通过【<a href=\"https://raw.githubusercontent.com/ztxtop/x/main/zqGaReadData.js\">Http Backend脚本</a>】的方式导出：配置好后浏览器中访问即可获取数据"
+            ],
+            "author": "@ztxtop",
+            "settings": [{
+              "id": "readMode",
+              "name": "执行模式（点击查看设置说明）",
+              "val": "0",
+              "type": "text",
+              "desc": "0-循环阅读：任务执行时间需大于21秒\n1-去重排序：根据响应数据判断重复并将视频往前排，依此优化阅读效率（可用半角逗号间隔该模式运行的账号，如账号一跟账号三才执行去重排序：1,1,3）\n3-备份数据：根据指定的备份格式，将要备份的数据以log的形式打印出来（高版本qx限制了打印日志长度，需使用其它方式导出）\n4-清空所有中青数据"
+            }, {
+              "id": "zqReadScheme",
+              "name": "阅读数据备份输出格式",
+              "val": "DF",
+              "type": "radios",
+              "items": [{
+                  "key": "QX",
+                  "label": "QX持久化数据代码"
+                },
+                {
+                  "key": "LS",
+                  "label": "Loon&Surge持久化数据代码"
+                },
+                {
+                  "key": "GA",
+                  "label": "Github Actions使用的以&分隔数据"
+                },
+                {
+                  "key": "DF",
+                  "label": "Default"
+                }
+              ]
+            },{
+              "id": "read_count",
+              "name": "账号1总阅读数",
+              "val": "0",
+              "type": "number",
+              "desc": "账号1阅读数据总行数"
+            }, {
+              "id": "read_count2",
+              "name": "账号2总阅读数",
+              "val": "0",
+              "type": "number",
+              "desc": "账号2阅读数据总行数"
+            }, {
+              "id": "read_count3",
+              "name": "账号3总阅读数",
+              "val": "0",
+              "type": "number",
+              "desc": "账号3阅读数据总行数"
+            }, {
+              "id": "read_count4",
+              "name": "账号4总阅读数",
+              "val": "0",
+              "type": "number",
+              "desc": "账号4阅读数据总行数"
+            }, {
+              "id": "read_count5",
+              "name": "账号5总阅读数",
+              "val": "0",
+              "type": "number",
+              "desc": "账号5阅读数据总行数"
+            }, {
+              "id": "read_count6",
+              "name": "账号6总阅读数",
+              "val": "0",
+              "type": "number",
+              "desc": "账号6阅读数据总行数"
+            }],
+            "repo": "https://github.com/ztxtop/x/blob/main/zqread.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+            "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth.js",
+            "scripts": [{
+              "name": "自动阅读",
+              "script": "https://raw.githubusercontent.com/ztxtop/x/main/zqread.js"
+            }]
+          },{
+            "id": "youthBanner",
+            "name": "中青看看赚",
+            "descs_html": [
+              "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
+            ],
+            "keys": ["youth_banner",
+       "youth_banner2", 
+       "youth_banner3",
+       "youth_banner4",
+       "youth_banner5",
+       "youth_banner6",
+       "youth_banner7",
+       "youth_banner8",
+       "youth_banner9",
+       "youth_banner10",
+       "youth_banner11",
+       "youth_banner12",
+       "youth_banner13",
+       "youth_banner14",
+       "youth_banner15",
+       "youth_banner16",
+       "youth_banner17"],
+            "author": "@ztxtop",
+            "settings": [{
+              "id": "ckFormat",
+              "val": "",
+              "name": "新CK格式",
+              "type": "boolean",
+              "desc": "数据是否按新格式存储"
+            }, {
+              "id": "zqSuffix",
+              "name": "抓包账号",
+              "val": "1",
+              "type": "number",
+              "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+            }, {
+              "id": "zqExecAc",
+              "name": "中青执行账号",
+              "val": "1",
+              "type": "text",
+              "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+            },{
+              "id": "delErrorData",
+              "name": "移除当日失败两次+的任务数据",
+              "val": "0",
+              "type": "radios",
+              "items": [{
+                  "key": "0",
+                  "label": "不移除"
+                },
+                {
+                  "key": "1",
+                  "label": "移除"
+                }
+              ]
+            }],
+            "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youth_banner.js",
+            "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+            "script": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
+          },{
+          "id": "youthZDRead",
+          "name": "中青多账号阅读",
+          "keys": ["zqgetbody_body","index",
+      "zqgetbody_body2","index2",
+      "zqgetbody_body3","index3",
+      "zqgetbody_body4","index4",
+      "zqgetbody_body5","index5",
+      "zqgetbody_body6","index6",
+      "zqgetbody_body7","index7",
+      "zqgetbody_body8","index8",
+      "zqgetbody_body9","index9",
+      "zqgetbody_body10","index10",
+      "zqgetbody_body11","index11",
+      "zqgetbody_body12","index12",
+      "zqgetbody_body13","index13",
+      "zqgetbody_body14","index14",
+      "zqgetbody_body15","index15",
+      "zqgetbody_body16","index16",
+      "zqgetbody_body17","index17"],
+          "author": "@jiuli",
+          "settings": [
+             {
+                "id": "zqReadLog",
+                "name": "通知",
+                "val": false,
+                "type": "boolean",
+                "desc": "通知开关，30秒一次,较频繁！建议关闭。"
+            },
+            {
+              "id": "zqReadSuffix",
+              "name": "当前账号",
+              "val": "1",
+              "type": "number",
+              "desc": "当前抓取ck记录的账号序号，如：1、2、3目前仅支持3账号"
+            },
+            {
+              "id": "zqReadCount",
+              "name": "账号个数",
+              "val": "1",
+              "type": "number",
+              "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+            }
+          ],
+          "repo": "https://raw.githubusercontent.com/wrgok/wrg/main/youthRead.js",
+          "icons": ["https://raw.githubusercontent.com/Orz-3/mini/master/Alpha/youth.png", "https://raw.githubusercontent.com/Orz-3/mini/master/Color/youth.png"],
+          "script": "https://raw.githubusercontent.com/jiuli12/Script/main/Youth_AutoRead.js"
+        }, { 
+          "id": "ysy",
+              "name": "萤石云",
+                  "keys": ["ysyhd","ysybody","cookie","txbody",
+      "ysyhd2","ysybody2","cookie2","txbody2",
+      "ysyhd3","ysybody3","cookie3","txbody3",
+      "ysyhd4","ysybody4","cookie4","txbody4",
+      "ysyhd5","ysybody5","cookie5","txbody5",
+      "ysyhd6","ysybody6","cookie6","txbody6",
+      "ysyhd7","ysybody7","cookie7","txbody7",
+      "ysyhd8","ysybody8","cookie8","txbody8",
+      "ysyhd9","ysybody9","cookie9","txbody9",
+      "ysyhd10","ysybody10","cookie10","txbody10",
+      "ysyhd11","ysybody11","cookie11","txbody11",
+      "ysyhd12","ysybody12","cookie12","txbody12",
+      "ysyhd13","ysybody13","cookie13","txbody13",
+      "ysyhd14","ysybody14","cookie14","txbody14",
+      "ysyhd15","ysybody15","cookie15","txbody15"],
+                      "author": "@YaphetS0903",
+                          "settings": [{
+                              "id": "ysystatus",
+                              "name": "当前账号",
+                              "val": "1",
+                              "type": "number",
+                              "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+                          }, {
+                              "id": "ysycount",
+                              "name": "账号个数",
+                              "val": "1",
+                              "type": "number",
+                              "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                          }, {
+                              "id": "tz",
+                              "name": "通知",
+                              "val": "1",
+                              "type": "number",
+                              "desc": "0关闭通知，1打开通知"
+                          }],
+                              "repo": "https://github.com/YaphetS0903/JStest/blob/main/ysy.js",
+                  "icons": ["https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg", "https://raw.githubusercontent.com/YaphetS0903/JStest/main/image/YaphetS.jpg"],
+                  "script": "https://raw.githubusercontent.com/YaphetS0903/JStest/main/ysy.js"
+             }, {
+                   "id": "jzread",
+                   "name": "九章",
+                   "keys": ["jzreadurl", "jzreadurl2", "jzreadurl3","jzreadurl4","jzreadurl5", "jzreadurl6", "jzreadurl7","jzreadurl8","jzreadurl9","jzreadurl10"],
+                   "author": "@ningmeng",
+                   "settings": [{
+                   "id": "jzreadstatus",
+                   "name": "当前账号",
+                   "val": "1",
+                   "type": "number",
+                   "desc": "当前账号对应"
+           },
+           {
+                   "id": "jzreadcount",
+                   "name": "账号个数",
+                   "val": "1",
+                   "type": "number",
+                   "desc": "需要几个账号，数字为几"
+           }],
+                   "repo": "http://47.101.146.160/scripts/jzread.js",
+                   "icons": ["http://47.101.146.160/scripts/1.jpg", "http://47.101.146.160/scripts/1.jpg"],
+                   "script": "http://47.101.146.160/scripts/jzread.js"
+           },{
+            "id": "txnews", 
+            "name": "腾讯新闻", 
+            "author": "@sunert", 
+            "repo": "https://github.com/Sunert/Scripts/blob/master/Task/txnews.js", 
+            "script": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js", 
+            "settings": [
+              {
+                "id": "notifynum", 
+                "placeholder": "默认50 (点击以展开说明)", 
+                "val": "", 
+                "name": "通知频率", 
+                "type": "number", 
+                "desc": "阅读篇数间隔通知开为1，常关为0(默认50篇)"
+              }, 
+              {
+                "id": "delay", 
+                "placeholder": "默认200 (点击以展开说明)", 
+                "val": "", 
+                "name": "延迟时间(毫秒)", 
+                "type": "number", 
+                "desc": "接口延迟时间"
+              }
+            ], 
+            "keys": [
+              "sy_signurl_txnews", 
+              "sy_cookie_txnews", 
+              "video_txnews", 
+              "txnews_id"
+            ], 
+            "icons": [
+              "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Alpha/txnews.png", 
+              "https://cdn.jsdelivr.net/gh/Orz-3/mini@master/Color/txnews.png"
+            ]
+          }, {
+          "id": "jrtt",
+          "name": "今日头条极速版",
+          "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3", "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4"],
+          "author": "@Ariszy",
+          "settings": [{
+                  "id": "tz",
+                  "name": "静默运行",
+                  "val": "1",
+                  "type": "number",
+                  "desc": "0为不通知，1为全部通知"
+              },
+             {
+              "id": "jrttsetting",
+              "name": "当前账号",
+              "val": "1",
+              "type": "number",
+              "desc": "当前账号对应"
+            },
+            {
+              "id": "jrttcount",
+              "name": "账号个数",
+              "val": "1",
+              "type": "number",
+              "desc": "需要几个账号，数字为几"
+            }],
+          "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/jrtt.js",
+          "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/jrtt.png"],
+          "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/jrtt.js"
+        }, {
+          "id": "fqxs",
+          "name": "番茄小说",
+          "keys": ["fqxsurl", "fqxs","fqxsurl2","fqxs2","fqxsurl3","fqxs3","fqxsurl4","fqxs4","fqxsurl5","fqxs5"],
+          "author": "@Ariszy",
+          "settings": [{
+                  "id": "tz",
+                  "name": "静默运行",
+                  "val": "1",
+                  "type": "number",
+                  "desc": "0为不通知，1为全部通知"
+              },
+            {
+              "id": "fqxsstatus",
+              "name": "当前账号",
+              "val": "1",
+              "type": "number",
+              "desc": "当前账号对应"
+            },    
+            {
+              "id": "fqxscount",
+              "name": "账号个数",
+              "val": "1",
+              "type": "number",
+              "desc": "需要几个账号，数字为几"
+            },
+             {
+              "id": "host",
+              "name": "host",
+              "val": "ib.snssdk.com",
+              "type": "string",
+              "desc": "当前版本host"
+            } ],
+          "repo": "https://github.com/Ariszy/Private-Script/blob/master/Scripts/fqxs.js",
+          "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs-mini.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/fqxs.png"],
+          "script": "https://raw.githubusercontent.com/Ariszy/Private-Script/master/Scripts/fqxs.js"
+        }, {
+                  "id": "sqxh",
+                  "name": "书旗小说",
+                  "keys": [
+                      "readck1",
+                      "receivecoinck1",
+                      "vediogoldprizeck1",
+                      "vediodrawprizeck1",
+                      "drawck1",
+                      "userinfock1",
+      
+                      "readck2",
+                      "receivecoinck2",
+                      "vediogoldprizeck2",
+                      "vediodrawprizeck2",
+                      "drawck2",
+                      "userinfock2",
+      
+                      "readck3",
+                      "receivecoinck3",
+                      "vediogoldprizeck3",
+                      "vediodrawprizeck3",
+                      "drawck3",
+                      "userinfock3",
+      
+                      "readck4",
+                      "receivecoinck4",
+                      "vediogoldprizeck4",
+                      "vediodrawprizeck4",
+                      "drawck4",
+                      "userinfock4",
+      
+                      "readck5",
+                      "receivecoinck5",
+                      "vediogoldprizeck5",
+                      "vediodrawprizeck5",
+                      "drawck5",
+                      "userinfock5"
+                  ],
+                  "author": "@caixukun1",
+                  "settings": [{
+                          "id": "sqxs",
+                          "name": "当前账号",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "当前抓取ck记录的账号序号，如：1、2、4、"
+                      }, {
+                          "id": "CountNumber",
+                          "name": "账号个数",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                      }
+                  ],
+                  "repo": "https://raw.githubusercontent.com/",
+                  "icons": [
+                      "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi-mini.png",
+                      "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/SHUQI/shuqi.png" 
+                 ],
+                  "script": "https://raw.githubusercontent. 4"
+           }, {
+                  "id": "dsj",
+                  "name": "电视家APP",
+                  "keys": ["dsjheader", "dsjtx", 
+      "dsjheader2", "dsjtx2",
+      "dsjheader3", "dsjtx3", 
+      "dsjheader4", "dsjtx4", 
+      "dsjheader5", "dsjtx5", 
+      "dsjheader6", "dsjtx6", 
+      "dsjheader7", "dsjtx7", 
+      "dsjheader8", "dsjtx8", 
+      "dsjheader9", "dsjtx9", 
+      "dsjheader10", "dsjtx10"],
+                  "author": "@ziye",
+                  "settings": [{
+                          "id": "dsjSuffix",
+                          "name": "当前账号",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                      },
+                      {
+                          "id": "dsjCount",
+                          "name": "账号个数",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                      },
+                      {
+                          "id": "dsjXH",
+                          "name": "循环获取CK",
+                          "val": "0",
+                          "type": "number",
+                          "desc": "0关闭 1开启,默认关闭"
+                      },
+                      {
+                          "id": "dsjZDTX",
+                          "name": "自动提现",
+                          "val": "0",
+                          "type": "number",
+                          "desc": "可设置0,1,5,10,20,25,30,50,99  0不提现 1随机提现 99由上到下所有提现 其他固定提现"
+                      },
+                      {
+                          "id": "dsjXYZ",
+                          "name": "执行概率",
+                          "val": "100",
+                          "type": "number",
+                          "desc": "0不执行 可设置0-100,默认百分百"
+                      },
+                      {
+                          "id": "dsjTXTX",
+                          "name": "余额提醒",
+                          "val": "0",
+                          "type": "number",
+                          "desc": "0不提醒 可设置0,5,10,20,25,30,50,100"
+                      },
+                      {
+                          "id": "dsjnotifyttt",
+                          "name": "推送控制",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "0关闭，1推送,默认12点以及23点推送"
+                      },
+                      {
+                          "id": "dsjnotifyInterval",
+                          "name": "通知控制",
+                          "val": "2",
+                          "type": "number",
+                          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                      },
+                      {
+                          "id": "dsjMinutes",
+                          "name": "推送-通知 分钟控制",
+                          "val": "10",
+                          "type": "number",
+                          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                      }
+                  ],
+                  "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js",
+                  "icons": ["https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png", "https://ghproxy.com/https://raw.githubusercontent.com/Orz-3/mini/master/Color/dianshijia.png"],
+                  "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/dsj.js"
+              },{
+                  "id": "rl",
+                  "name": "燃旅视频",
+                  "keys": [
+      "rlurl", 
+      "rlurl2",
+      "rlurl3", 
+      "rlurl4", 
+      "rlurl5"],
+                  "author": "@ziye",
+                  "settings": [{
+                          "id": "rlSuffix",
+                          "name": "当前账号",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                      },
+                      {
+                          "id": "rlCount",
+                          "name": "账号个数",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                      },
+                      {
+                          "id": "rlXH",
+                          "name": "循环获取CK",
+                          "val": "0",
+                          "type": "number",
+                          "desc": "0关闭 1开启,默认关闭"
+                      }, 
+                      {
+                          "id": "rlXYZ",
+                          "name": "执行概率",
+                          "val": "100",
+                          "type": "number",
+                          "desc": "0不执行 可设置0-100,默认百分百"
+                      },
+                      {
+                          "id": "rlnotifyttt",
+                          "name": "推送控制",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "0关闭，1推送,默认12点以及23点推送"
+                      },
+                      {
+                          "id": "rlnotifyInterval",
+                          "name": "通知控制",
+                          "val": "2",
+                          "type": "number",
+                          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                      },
+                      {
+                          "id": "rlMinutes",
+                          "name": "推送-通知 分钟控制",
+                          "val": "10",
+                          "type": "number",
+                          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                      }],
+                  "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.js",
+                  "icons": ["https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/rl.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/rl.png"],
+                  "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/rl.js"
+              }, {
+                  "id": "txwzq",
+                  "name": "微证券",
+                  "keys": ["txwzqck", "txzxgck", "txwzqck2", "txzxgck2", "txwzqck3", "txzxgck3"],
+                  "author": "@ziye",
+                  "settings": [{
+                          "id": "txwzqSuffix",
+                          "name": "当前账号",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+                      },
+                      {
+                          "id": "txwzqCount",
+                          "name": "账号个数",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+                      },
+                      {
+                          "id": "txwzqCASH",
+                          "name": "提现选择",
+                          "val": "0",
+                          "type": "number",
+                          "desc": "可设置0 1 5 默认0不提现"
+                      },
+                      {
+                          "id": "txwzqXH",
+                          "name": "循环获取CK",
+                          "val": "0",
+                          "type": "number",
+                          "desc": "0关闭 1开启,默认关闭"
+                      }, 
+                      {
+                          "id": "txwzqXYZ",
+                          "name": "执行概率",
+                          "val": "100",
+                          "type": "number",
+                          "desc": "0不执行 可设置0-100,默认百分百"
+                      },
+                      {
+                          "id": "txwzqnotifyttt",
+                          "name": "推送控制",
+                          "val": "1",
+                          "type": "number",
+                          "desc": "0关闭，1推送,默认12点以及23点推送"
+                      },
+                      {
+                          "id": "txwzqnotifyInterval",
+                          "name": "通知控制",
+                          "val": "2",
+                          "type": "number",
+                          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+                      },
+                      {
+                          "id": "txwzqMinutes",
+                          "name": "推送-通知 分钟控制",
+                          "val": "10",
+                          "type": "number",
+                          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+                      }],
+                  "repo": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js",
+                  "icons": ["https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png", "https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txzxg.png"],
+                  "script": "https://cdn.jsdelivr.net/gh/ziye888/JavaScript@main/Task/txwzq.js"
+              }
     ]
 }
