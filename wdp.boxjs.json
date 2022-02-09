@@ -485,7 +485,7 @@
              }, {
                    "id": "jzread",
                    "name": "九章",
-                   "keys": ["jzreadurl", "jzreadurl2", "jzreadurl3","jzreadurl4"],
+                   "keys": ["jztturl", "jztturl2", "jztturl3","jztturl4"],
                    "author": "@ningmeng",
                    "settings": [{
                    "id": "jzreadstatus",
